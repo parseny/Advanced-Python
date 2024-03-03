@@ -1,0 +1,77 @@
+я пытался останавливать ввод ctrl+D, но у меня работал почему то только ctrl+Z
+
+..\hw1> python tail.py
+f
+ff
+fff
+ffff
+fffff
+ffffff
+fffffff
+ffffffff
+fffffffff
+ffffffffff
+fffffffffff
+ffffffffffff
+fffffffffffff
+ffffffffffffff
+fffffffffffffff
+ffffffffffffffff
+fffffffffffffffff
+ffffffffffffffffff
+fffffffffffffffffff
+ffffffffffffffffffff
+^Z
+ffff
+fffff
+ffffff
+fffffff
+ffffffff
+fffffffff
+ffffffffff
+fffffffffff
+ffffffffffff
+fffffffffffff
+ffffffffffffff
+fffffffffffffff
+ffffffffffffffff
+fffffffffffffffff
+ffffffffffffffffff
+fffffffffffffffffff
+ffffffffffffffffffff
+
+..\hw1> python tail.py test.txt
+dfsdfsd
+dfsdfdsfdsf
+f
+fgf
+ggg
+trhgtr
+gtrtg
+trhtrh
+trhrth
+rthtrh
+
+..\hw1> python tail.py test.txt test.txt
+==> test.txt <==
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+==> test.txt <==
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12

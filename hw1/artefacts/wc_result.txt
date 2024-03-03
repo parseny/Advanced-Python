@@ -1,0 +1,12 @@
+..\hw1> python wc.py test_wc.txt test_wc.txt
+   4    6   25 test_wc.txt
+   4    6   25 test_wc.txt
+   8   12   50 total
+
+..\hw1> python wc.py test_wc.txt
+   4    6   25 test_wc.txt
+
+..\hw1> python wc.py
+hello world
+^Z
+       1        2       12

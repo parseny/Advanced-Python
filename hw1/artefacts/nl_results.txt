@@ -1,0 +1,16 @@
+(apenv) PS ..\hw1> python nl.py test.txt
+1  qwwer
+2  qweqwewqe
+3  dfsdfsd
+4  dfsdfdsfdsf
+5
+
+(apenv) PS ..\hw1> python nl.py test.txt
+fddfrerf
+1  fddfrerf
+fererferffer
+2  fererferffer
+3
+3  3
+d
+4  d
