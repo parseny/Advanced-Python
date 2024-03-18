@@ -1,0 +1,10 @@
+version: '3.10'
+
+services:
+  latex_service:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: /app/run.sh
